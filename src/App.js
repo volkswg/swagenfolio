@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     let cover_height = this.state.screen_heigth;
     // console.log(cover_height);
-
+    console.log("test");
     return (
       <div className="App">
         <NavBar

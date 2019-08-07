@@ -68,6 +68,7 @@ class SlideShow extends Component {
   }
 
   render() {
+    console.log("test2");
     const { activeIndex } = this.state;
 
     const slides = items.map(item => {
