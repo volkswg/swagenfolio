@@ -2,11 +2,9 @@ import React, { Component } from "react";
 import { Container } from "reactstrap";
 import "./Cover.css";
 
-class Cover extends Component {
+class MainCover extends Component {
   state = {};
   render() {
-    // var bgImg = "https://picsum.photos/id/1045/1000/" + this.props.cover_height;
-    // var bgImg = require("../img/CoverBG.jpg");
     return (
       <div>
         <section
@@ -32,4 +30,4 @@ class Cover extends Component {
   }
 }
 
-export default Cover;
+export default MainCover;

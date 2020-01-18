@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
 
-class NoMath extends Component {
+class NotFound extends Component {
   state = {};
   render() {
     return (
@@ -12,4 +12,4 @@ class NoMath extends Component {
   }
 }
 
-export default NoMath;
+export default NotFound;

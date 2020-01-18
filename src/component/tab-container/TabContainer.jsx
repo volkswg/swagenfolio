@@ -36,6 +36,7 @@ class TabContainer extends Component {
   render() {
     return (
       <Container>
+        {/* Year Tab */}
         <Nav
           tabs
           style={{
@@ -46,6 +47,7 @@ class TabContainer extends Component {
         >
           <NavItem>
             <NavLink
+              href="#"
               className={classnames({ active: this.state.activeTab === "1" })}
               onClick={() => {
                 this.toggle("1");
@@ -105,6 +107,7 @@ class TabContainer extends Component {
             </NavLink>
           </NavItem>
         </Nav>
+        {/* project content */}
         <TabContent
           style={{ padding: "15px" }}
           activeTab={this.state.activeTab}

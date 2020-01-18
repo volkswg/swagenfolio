@@ -17,19 +17,15 @@ class ContactLine extends Component {
               <img
                 style={{ padding: "2px" }}
                 width="45px"
-                src={require("../../img/contract/fb-logo.png")}
+                src={require("../../../img/contract/fb-logo.png")}
                 alt=""
               />
             </a>
-            <a
-              href="https://github.com/volkswg"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://github.com/volkswg" target="_blank" rel="noopener noreferrer">
               <img
                 style={{ padding: "2px" }}
                 width="45px"
-                src={require("../../img/contract/gh-logo.png")}
+                src={require("../../../img/contract/gh-logo.png")}
                 alt=""
               />
             </a>
@@ -41,7 +37,7 @@ class ContactLine extends Component {
               <img
                 style={{ padding: "2px" }}
                 width="45px"
-                src={require("../../img/contract/linkedin-logo.png")}
+                src={require("../../../img/contract/linkedin-logo.png")}
                 alt=""
               />
             </a>
@@ -49,14 +45,11 @@ class ContactLine extends Component {
         </Row>
         <Row style={{ paddingTop: "10px" }}>
           <Col className="text-center">
-            <a
-              href="tel:+66816668881"
-              style={{ textDecoration: "none", color: "#272727" }}
-            >
+            <a href="tel:+66816668881" style={{ textDecoration: "none", color: "#272727" }}>
               <img
                 style={{ padding: "2px" }}
                 width="25px"
-                src={require("../../img/contract/telC-logo.png")}
+                src={require("../../../img/contract/telC-logo.png")}
                 alt=""
               />
               081-6668881

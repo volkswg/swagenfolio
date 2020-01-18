@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
-import Contact from "../contract/Contact";
-
-import "./BasicInfo.css";
+import Contact from "../../screen_component/main_screen/contract/Contact";
 
 class BasicInfo extends Component {
   state = {};
+
   calculate_age = dob1 => {
     var today = new Date();
     var birthDate = new Date(dob1); // create a date object directly from `dob1` argument
@@ -19,14 +18,14 @@ class BasicInfo extends Component {
 
   render() {
     let my_age = this.calculate_age("1996-12-18");
-    // var month = new Date().get();
     return (
       <Container
         style={{
           paddingTop: "50px",
           paddingLeft: "50px",
           paddingRight: "50px",
-          textAlign: "justify"
+          textAlign: "justify",
+          marginBottom: 25
         }}
       >
         <h3 className="text-center">
@@ -43,8 +42,8 @@ class BasicInfo extends Component {
             textAlign: "justify"
           }}
         >
-          I'm {my_age} years old, I graduated from King Mongkut's University of
-          Technology Thonburi (KMUTT).
+          I'm {my_age} years old, I graduated from King Mongkut's University of Technology Thonburi
+          (KMUTT).
           <br />
           Computer Engineering.
         </p>

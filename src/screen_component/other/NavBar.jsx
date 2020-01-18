@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  // Collapse,
-  Navbar,
-  // NavbarToggler,
-  NavbarBrand,
-  // Nav,
-  // NavItem,
-  // NavLink,
-  Container
-} from "reactstrap";
+import { Navbar, NavbarBrand, Container } from "reactstrap";
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -21,7 +12,8 @@ export default class NavBar extends React.Component {
       navColor: "faded",
       paddingBuf: this.paddingBuf,
       bandfontsize: this.props.brand_size[0] + "px",
-      navitemfontsize: this.props.navitem_size[0] + "px"
+      navitemfontsize: this.props.navitem_size[0] + "px",
+      screen_heigth: window.innerHeight
     };
   }
   toggle() {
@@ -48,7 +40,7 @@ export default class NavBar extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   };
   handleScroll = event => {
-    if (window.scrollY <= this.props.cover_height - 50) {
+    if (window.scrollY <= this.state.screen_heigth - 50) {
       this.setState({
         navColor: "faded",
         bandfontsize: this.props.brand_size[0] + "px",
@@ -64,11 +56,6 @@ export default class NavBar extends React.Component {
   };
 
   render() {
-    // let cus_nav = {
-    //   fontSize: this.state.navitemfontsize,
-    //   transition: "all 0.2s ease",
-    //   paddingTop: "13px"
-    // };
     return (
       <div>
         <Container>

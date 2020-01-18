@@ -1,56 +1,30 @@
 import React, { Component } from "react";
 
-import { Container } from "reactstrap";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 // import LandingPage from "./component/LandingPage";
-import NavBar from "./component/NavBar";
-import BasicInfo from "./component/basicInfo/BasicInfo";
-import SlideShow from "./component/SlideShow";
-import Cover from "./component/Cover";
-import TabContainer from "./component/tab-container/TabContainer";
+import NavBar from "./screen_component/other/NavBar";
+
+import MainScreen from "./screen/MainScreen";
+import NotFound from "./screen/NotFound";
+
+// import SlideShow from "./component/SlideShow";
+// import TabContainer from "./component/tab-container/TabContainer";
+// import ProjectTab from "./component/tab-container/ProjectTab";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { color: "faded", screen_heigth: window.innerHeight };
-  }
-
-  haddleHeightChange = () => {
-    // console.log(window.innerHeight);
-    let diff_val = Math.abs(this.state.screen_heigth - window.innerHeight);
-    this.setState({ test: window.innerHeight });
-    console.log(diff_val);
-    if (diff_val > 100) {
-      this.setState({ screen_heigth: window.innerHeight });
-    }
-  };
-
-  componentDidMount = () => {
-    window.addEventListener("resize", this.haddleHeightChange.bind(this));
-  };
   render() {
-    let cover_height = this.state.screen_heigth;
-    // console.log(cover_height);
-    console.log("test");
     return (
-      <div className="App">
-        <NavBar
-          cover_height={cover_height}
-          brand_size={[25, 20]}
-          navitem_size={[20, 16]}
-        />
-
-        <Cover cover_height={cover_height} />
-        <BasicInfo />
-        <Container style={{ paddingTop: "50px" }}>
-          <h1>Project</h1>
-          <p>Comming Soon</p>
-        </Container>
-
-        {/* <TabContainer /> */}
-        <br />
-        <br />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <NavBar brand_size={[25, 20]} navitem_size={[20, 16]} />
+          <Switch>
+            <Route exact path="/" component={MainScreen} />
+            <Route component={NotFound} />
+          </Switch>
+          <div style={{ height: 200 }}></div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
