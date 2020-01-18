@@ -4,7 +4,7 @@ class TimelineBox extends Component {
   state = {};
   render() {
     const timeline_color =
-      this.props.timeline_color == null ? "skyblue" : this.props.timeline_color;
+      this.props.timeline_color === null ? "skyblue" : this.props.timeline_color;
     const styles = {
       container_left: {
         position: "relative",
@@ -87,14 +87,14 @@ class TimelineBox extends Component {
 
     return (
       <div>
-        <div style={this.props.box_pos == "left" ? styles.container_left : styles.container_right}>
+        <div style={this.props.box_pos === "left" ? styles.container_left : styles.container_right}>
           {/* <div style={styles.year_mark}>2000</div> */}
           <div
             style={
-              this.props.box_pos == "left" ? styles.timeline_mark_left : styles.timeline_mark_right
+              this.props.box_pos === "left" ? styles.timeline_mark_left : styles.timeline_mark_right
             }
           />
-          <div style={this.props.box_pos == "left" ? styles.left_dot : styles.right_dot} />
+          <div style={this.props.box_pos === "left" ? styles.left_dot : styles.right_dot} />
           <div style={styles.content}>
             <h1
               style={{
