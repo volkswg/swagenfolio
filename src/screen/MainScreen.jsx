@@ -4,6 +4,7 @@ import { Container } from "reactstrap";
 import MainCover from "../screen_component/main_screen/MainCover";
 import BasicInfo from "../screen_component/main_screen/BasicInfo";
 import ProjectTimeline from "../screen_component/main_screen/project_timeline/ProjectTimeline";
+import ProjectTimelineNew from "../screen_component/main_screen/new_project_timeline/ProjectTimelineNew";
 
 class MainScreen extends Component {
   state = {};
@@ -22,7 +23,8 @@ class MainScreen extends Component {
       <div>
         <MainCover cover_height={this.state.screen_heigth} />
         <BasicInfo />
-        <ProjectTimeline />
+        {/* <ProjectTimeline /> */}
+        <ProjectTimelineNew />
       </div>
     );
   }
