@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import TimelineBoxLR from "./TimelineBoxLR";
+import TimelineBoxLR from "./TimelineBoxLR/TimelineBoxLR";
 
 class ProjectTimelineNew extends Component {
-  state = {};
-  render() {
-    const main_color = "#212529";
-    return (
-      <div style={{ backgroundColor: "#f6f6f6" }}>
-        <Container>
-          <h1 style={{ textAlign: "center", marginBottom: 70 }}>Project</h1>
-          <div style={{ position: "relative" }}>
-            <TimelineBoxLR />
-            <TimelineBoxLR />
-            <TimelineBoxLR />
-            <TimelineBoxLR />
-          </div>
-        </Container>
-      </div>
-    );
-  }
+    state = {};
+    render() {
+        const main_color = "#212529";
+        return (
+            <div style={{ backgroundColor: "#f6f6f6" }}>
+                <Container>
+                    <h1 style={{ textAlign: "center", marginBottom: 70 }}>Project</h1>
+                    <div style={{ position: "relative" }}>
+                        <TimelineBoxLR />
+                        <TimelineBoxLR />
+                        <TimelineBoxLR />
+                        <TimelineBoxLR />
+                    </div>
+                </Container>
+            </div>
+        );
+    }
 }
 
 export default ProjectTimelineNew;
