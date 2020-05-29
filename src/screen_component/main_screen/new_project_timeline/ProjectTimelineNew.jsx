@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 import TimelineBoxLR from "./TimelineBoxLR/TimelineBoxLR";
 
 class ProjectTimelineNew extends Component {
     state = {};
     render() {
-        const main_color = "#212529";
         return (
             <div style={{ backgroundColor: "#f6f6f6" }}>
                 <Container>

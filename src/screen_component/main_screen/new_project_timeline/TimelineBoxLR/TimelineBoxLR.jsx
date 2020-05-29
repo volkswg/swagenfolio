@@ -6,7 +6,6 @@ import classes from "./TimelineBoxLR.module.css";
 class TimelineBoxLR extends Component {
     state = {};
     render() {
-        const styles = {};
         return (
             <Row style={{ position: "relative" }}>
                 <div className={classes.timeline_line} />
