@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
-import Contact from "../../../screen_component/main_screen/contract/Contact";
+import ContactList from "./ContactList/ContactList";
 
 import classes from "./BasicInfo.module.css";
 
@@ -36,12 +36,12 @@ class BasicInfo extends Component {
                         textAlign: "justify",
                     }}
                 >
-                    I'm {my_age} years old, I graduated from King Mongkut's University of Technology
-                    Thonburi (KMUTT).
+                    I'm {my_age} years old, I graduated from King Mongkut's
+                    University of Technology Thonburi (KMUTT).
                     <br />
                     Computer Engineering.
                 </p>
-                <Contact />
+                <ContactList />
                 {/* <hr /> */}
             </Container>
         );

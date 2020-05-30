@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
 
-import MainCover from "../screen_component/main_screen/MainCover/MainCover";
-import BasicInfo from "../screen_component/main_screen/BasicInfo/BasicInfo";
-import ProjectTimeline from "../screen_component/main_screen/project_timeline/ProjectTimeline";
-import ProjectTimelineNew from "../screen_component/main_screen/new_project_timeline/ProjectTimelineNew";
+import MainCover from "../components/MainCover/MainCover";
+import BasicInfo from "../components/BasicInfo/BasicInfo";
+import ProjectTimeline from "../components/ProjectTimelineV1/ProjectTimeline";
+import ProjectTimelineNew from "../components/ProjectTimelineV2/ProjectTimelineNew";
 
 class MainScreen extends Component {
     state = {};
