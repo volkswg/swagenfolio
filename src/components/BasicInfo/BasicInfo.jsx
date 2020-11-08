@@ -22,6 +22,13 @@ class BasicInfo extends Component {
     let my_age = this.calculate_age("1996-12-18");
     return (
       <Container className={classes.BasicInfoContianer}>
+        <div style={{ textAlign: "center", marginBottom: 40 }}>
+          <img
+            src={require("../../assets/image/profilePic1.png")}
+            alt=""
+            style={{ width: "25%", borderRadius: "100%", minWidth: 225 }}
+          />
+        </div>
         <h3 className="text-center">
           My Name Is{" "}
           <span className="name">
@@ -34,6 +41,7 @@ class BasicInfo extends Component {
           style={{
             fontSize: "20px",
             textAlign: "justify",
+            marginBottom: 45,
           }}
         >
           I'm {my_age} years old, I graduated from King Mongkut's University of
