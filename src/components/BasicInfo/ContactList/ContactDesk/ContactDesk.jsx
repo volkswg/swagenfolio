@@ -31,7 +31,7 @@ class ContactCard extends Component {
                 style={styles.link_stlye}
               >
                 <CardElem
-                  logo_src={require("../../../../img/contract/fb-logo.png")}
+                  logo_src={require("../../../../assets/image/contact/fb-logo.png")}
                   contract_type="Facebook"
                   contract_info="Saranpat.Funkaew"
                 />
@@ -45,7 +45,7 @@ class ContactCard extends Component {
                 style={styles.link_stlye}
               >
                 <CardElem
-                  logo_src={require("../../../../img/contract/gh-logo.png")}
+                  logo_src={require("../../../../assets/image/contact/gh-logo.png")}
                   contract_type="GitHub"
                   contract_info="volkswg"
                 />
@@ -59,7 +59,7 @@ class ContactCard extends Component {
                 style={styles.link_stlye}
               >
                 <CardElem
-                  logo_src={require("../../../../img/contract/linkedin-logo.png")}
+                  logo_src={require("../../../../assets/image/contact/linkedin-logo.png")}
                   contract_type="Linkedin"
                   contract_info="Saranpat Funkaew"
                 />
@@ -67,7 +67,7 @@ class ContactCard extends Component {
             </Col>
             <Col lg={autoScaleNum}>
               <CardElem
-                logo_src={require("../../../../img/contract/telC-logo.png")}
+                logo_src={require("../../../../assets/image/contact/telC-logo.png")}
                 contract_type="Tel."
                 contract_info="081-6668881"
               />
