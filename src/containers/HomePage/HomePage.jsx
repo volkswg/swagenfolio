@@ -3,8 +3,7 @@ import React, { Component } from "react";
 
 import MainCover from "../../components/MainCover/MainCover";
 import BasicInfo from "../../components/BasicInfo/BasicInfo";
-// import ProjectTimeline from "../components/ProjectTimelineV1/ProjectTimeline";
-import ProjectTimelineNew from "../../components/ProjectTimelineV2/ProjectTimelineNew";
+import ProjectTimeline from "../../components/ProjectTimeline/ProjectTimeline";
 
 class MainScreen extends Component {
   state = {};
@@ -23,8 +22,7 @@ class MainScreen extends Component {
       <div>
         <MainCover cover_height={this.state.screen_heigth} />
         <BasicInfo />
-        {/* <ProjectTimeline /> */}
-        <ProjectTimelineNew />
+        <ProjectTimeline />
       </div>
     );
   }
