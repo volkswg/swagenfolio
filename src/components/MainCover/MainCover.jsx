@@ -1,34 +1,27 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container } from "reactstrap";
 
 import classes from "./MainCover.module.css";
 
-class MainCover extends Component {
-    state = {};
-    render() {
-        return (
-            <div>
-                <section
-                    className={classes.coverImg}
-                    style={{
-                        minHeight: this.props.cover_height + "px",
-                        paddingTop: this.props.cover_height / 3 + "px",
-                    }}
-                >
-                    <Container className="text-center">
-                        <h1
-                            style={{
-                                letterSpacing: window.innerWidth / 50 + "px",
-                                fontSize: window.innerWidth / 20 + "px",
-                            }}
-                        >
-                            SARANPAT
-                        </h1>
-                    </Container>
-                </section>
-            </div>
-        );
-    }
-}
+const MainCover = () => {
+  return (
+    <section className={classes.coverImg}>
+      <Container className="text-center">
+        <h1
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%,-50%)",
+            letterSpacing: "2vw",
+            fontSize: "5rem",
+          }}
+        >
+          SARANPAT
+        </h1>
+      </Container>
+    </section>
+  );
+};
 
 export default MainCover;
