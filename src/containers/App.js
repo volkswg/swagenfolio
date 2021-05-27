@@ -22,7 +22,7 @@ class App extends Component {
             <Route exact path="/" component={HomePage} />
             <Route component={NotFound} />
           </Switch>
-          <div style={{ height: 200 }}></div>
+          <div style={{ height: 50 }}></div>
         </div>
       </BrowserRouter>
     );
