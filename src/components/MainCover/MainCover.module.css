@@ -10,6 +10,15 @@
   min-height: 100vh;
 }
 
+.myName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2vw;
+  font-size: 5rem;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .coverImg {
