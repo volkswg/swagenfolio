@@ -3,19 +3,16 @@ import { Navbar, NavbarBrand, Container } from "reactstrap";
 
 import classes from "./NavBar.module.css";
 
-const NavBar = ({ brand_size }) => {
+const NavBar = () => {
   let [navColor, setNavColor] = useState("fadded");
-  let [bandFontSize, setBrandFontSize] = useState(brand_size[0]);
-
-  const handleScroll = () => {
-    const smallerNavBar = window.scrollY <= window.innerHeight - 50;
-
-    setNavColor(smallerNavBar ? "fadded" : "light");
-    setBrandFontSize(smallerNavBar ? brand_size[0] : brand_size[1]);
-  };
+  let [bandFontSize, setBrandFontSize] = useState(25);
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", () => {
+      const smallerNavBar = window.scrollY <= window.innerHeight - 50;
+      setNavColor(smallerNavBar ? "fadded" : "light");
+      setBrandFontSize(smallerNavBar ? 25 : 20);
+    });
   }, []);
 
   return (

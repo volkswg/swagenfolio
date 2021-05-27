@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <NavBar brand_size={[25, 20]} />
+          <NavBar />
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route component={NotFound} />
