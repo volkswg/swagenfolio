@@ -5,7 +5,6 @@ import CardElem from "./CardElem/CardElem";
 
 class ContactCard extends Component {
   render() {
-    let autoScaleNum = 12 / 4;
     return (
       <div style={{ display: "flex" }}>
         <div>
