@@ -1,6 +1,10 @@
 .CardStyle {
   box-shadow: 5px 5px 5px #d4d4d4;
   text-align: center !important;
+  padding: 20px;
+  margin: 0 15px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
 }
 .CardStyle:hover {
   border-color: #a0a0a0;
@@ -11,6 +15,19 @@
   -webkit-transition: 150ms;
 }
 
+.CardImage {
+  margin-bottom: 20px;
+}
+
+.CardImage img {
+  width: 40%;
+}
+
+.CardContactType {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
 .LinkStyle {
   text-decoration: none;
   color: #272727;
@@ -19,4 +36,26 @@
 .LinkStyle:hover {
   text-decoration: none;
   color: #272727;
+}
+
+@media only screen and (max-width: 993px) {
+  .CardContactType {
+    display: none;
+  }
+  .CardContact {
+    font-size: 11px;
+  }
+  .CardStyle {
+    margin: unset;
+    padding: unset;
+    border: unset;
+    box-shadow: unset;
+  }
+  .CardImage {
+    margin-bottom: 5px;
+  }
+  .CardImage img {
+    width: 60%;
+    /* max-width: 80px; */
+  }
 }

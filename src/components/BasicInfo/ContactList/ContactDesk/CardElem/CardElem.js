@@ -1,5 +1,4 @@
 import React from "react";
-import { Card, CardTitle, CardText } from "reactstrap";
 
 import classes from "./CardElem.module.css";
 
@@ -11,15 +10,17 @@ const CardElem = ({ url, logo_src, contract_type, contract_info }) => {
       target={url === null ? "" : "_blank"}
       rel="noopener noreferrer"
     >
-      <Card body className={classes.CardStyle}>
-        <CardTitle>
-          <img src={logo_src} style={{ width: "40%" }} alt="" />
-        </CardTitle>
-        <CardTitle>
-          <b style={{ fontSize: 25 }}>{contract_type}</b>
-        </CardTitle>
-        <CardText>{contract_info}</CardText>
-      </Card>
+      <div className={classes.CardStyle}>
+        <div className={classes.CardImage}>
+          <img src={logo_src} alt="" />
+        </div>
+        <div className={classes.CardContactType}>
+          <b>{contract_type}</b>
+        </div>
+        <div className={classes.CardContact}>
+          <p>{contract_info}</p>
+        </div>
+      </div>
     </a>
   );
 };
