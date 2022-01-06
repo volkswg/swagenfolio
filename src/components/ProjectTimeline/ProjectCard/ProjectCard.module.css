@@ -1,0 +1,88 @@
+.CenterLine {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 3px;
+  height: 100%;
+  background-color: darkgrey;
+}
+
+.ProjectCardParent {
+  position: relative;
+  display: flex;
+  padding: 10px 0;
+}
+
+.ProjectCardParent.Right {
+  justify-content: flex-end;
+}
+
+.ProjectCard {
+  background-color: white;
+  width: 48%;
+  position: relative;
+  box-shadow: rgb(215 215 215) 0 0 13px 3px;
+  padding: 15px 15px;
+  transition: 150ms;
+}
+.ProjectCard:hover {
+  transform: scale(1.01);
+}
+
+.Arrow {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 5px;
+  width: 0;
+  z-index: 1;
+  border: medium solid #fff;
+}
+
+.Arrow.Right {
+  left: -10px;
+  border: medium solid #fff;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+.Arrow.Left {
+  right: -10px;
+  border: medium solid #fff;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.TimelineDot {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: darkgrey;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 100px;
+  top: 7px;
+  border: 3px solid rgb(246, 246, 246);
+  margin: 9px 0;
+}
+
+@media screen and (max-width: 993px) {
+  .ProjectCardParent {
+    justify-content: flex-end;
+  }
+  .ProjectCard {
+    width: 96%;
+  }
+  .CenterLine {
+    left: 0;
+  }
+  .TimelineDot {
+    left: 0px;
+  }
+  .Arrow.Left {
+    left: -10px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+}
