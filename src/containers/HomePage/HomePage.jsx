@@ -13,7 +13,7 @@ class MainScreen extends Component {
       <div>
         <MainCover />
         <BasicInfo />
-        {/* <ProjectTimeline /> */}
+        <ProjectTimeline />
       </div>
     );
   }
