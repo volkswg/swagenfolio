@@ -7,26 +7,38 @@
   background-color: darkgrey;
 }
 
-.ProjectCardParent {
+.TimelineCardParent {
   position: relative;
   display: flex;
   padding: 10px 0;
 }
 
-.ProjectCardParent.Right {
+.TimelineCardParent.Right {
   justify-content: flex-end;
 }
 
-.ProjectCard {
+.TimelineCard {
   background-color: white;
   width: 48%;
   position: relative;
   box-shadow: rgb(215 215 215) 0 0 13px 3px;
-  padding: 15px 15px;
+  /* padding: 15px 15px; */
   transition: 150ms;
+  display: flex;
+  border-radius: 5px;
 }
-.ProjectCard:hover {
+.TimelineCard:hover {
   transform: scale(1.01);
+}
+
+.TimelineCard > .ImgSection {
+  width: 50%;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+}
+.TimelineCard > .TxtSection {
+  width: 50%;
+  padding: 15px;
 }
 
 .Arrow {
@@ -67,10 +79,10 @@
 }
 
 @media screen and (max-width: 993px) {
-  .ProjectCardParent {
+  .TimelineCardParent {
     justify-content: flex-end;
   }
-  .ProjectCard {
+  .TimelineCard {
     width: 96%;
   }
   .CenterLine {
