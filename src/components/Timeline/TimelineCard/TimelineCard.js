@@ -15,7 +15,7 @@ const TimelineCard = (props) => {
           className={[classes.Arrow, cardPos === "right" ? classes.Right : classes.Left].join(" ")}
         ></div>
         <div className={classes.ImgSection}>
-          <img src={cardImg} style={{ width: "100%" }} />
+          <img src={cardImg} style={{ width: "100%" }} alt={cardName} />
         </div>
         <div className={classes.TxtSection}>
           <div>{cardYear}</div>
