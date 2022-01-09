@@ -11,7 +11,7 @@ const Timeline = (props) => {
         <h1
           style={{
             textAlign: "center",
-            padding: "40px 0",
+            padding: "30px 0 10px 0",
             fontWeight: "bold",
           }}
         >
