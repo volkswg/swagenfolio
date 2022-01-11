@@ -8,9 +8,10 @@ import Timeline from "../../components/Timeline/Timeline";
 // import project image
 import rawImg from "../../assets/image/project_img/readawrite_logo.jpg";
 import sitinnovateImg from "../../assets/image/project_img/sitinnovate_logo.png";
-import thaiaupairImg from "../../assets/image/project_img/thaiaupair_logo.jpg";
-import eternoImg from "../../assets/image/project_img/eterno64_logo.jpg";
+import thaiaupairImg from "../../assets/image/project_img/thaiaupair_logo.PNG";
+import eternoImg from "../../assets/image/project_img/eterno64_logo.PNG";
 import hisImg from "../../assets/image/project_img/his_sim.jpg";
+import happyTownLogo from "../../assets/image/project_img/HappyTownLogo.jpg";
 
 //import work exp image
 import picoLogo from "../../assets/image/project_img/PICO_logo.png";
@@ -21,6 +22,8 @@ import hackathonLogo from "../../assets/image/project_img/hackathon_logo.jpg";
 import tictaLogo from "../../assets/image/project_img/ticta_logo.jpg";
 import nscLogo from "../../assets/image/project_img/nsc_logo.png";
 import mosLogo from "../../assets/image/project_img/mos2014_logo.jpg";
+import mmDashLogo from "../../assets/image/project_img/mmDash_logo.jpg";
+import mmHLogo from "../../assets/image/project_img/Monmon_logo.jpg";
 
 class MainScreen extends Component {
   state = {};
@@ -50,6 +53,24 @@ class MainScreen extends Component {
         year: "2019",
         name: "HIS Simulation",
         otherInfo: "Computer Engineering (KMUTT)",
+      },
+      {
+        img: happyTownLogo,
+        year: "2015",
+        name: "Happy Town",
+        otherInfo: "The Prince Royal's College",
+      },
+      {
+        img: mmDashLogo,
+        year: "2015",
+        name: "Monmon dash",
+        otherInfo: "The Prince Royal's College",
+      },
+      {
+        img: mmHLogo,
+        year: "2015",
+        name: "Monmon: hiding the hanky",
+        otherInfo: "The Prince Royal's College",
       },
     ];
 
