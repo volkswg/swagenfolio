@@ -11,6 +11,7 @@
   position: relative;
   display: flex;
   padding: 10px 0;
+  justify-content: space-between;
 }
 
 .TimelineCardParent.Right {
@@ -27,6 +28,10 @@
   display: flex;
   border-radius: 5px;
 }
+
+.TimelineCard.Low {
+  top: 30px;
+}
 .TimelineCard:hover {
   transform: scale(1.01);
 }
@@ -39,6 +44,25 @@
 .TimelineCard > .TxtSection {
   width: 65%;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.YearLabel {
+  font-size: 25px;
+  font-weight: 1000;
+  text-align: center;
+}
+.NameLabel {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.OtherInfoLabel {
+  font-size: 16px;
+  /* font-weight: 500; */
+  text-align: center;
 }
 
 .Arrow {
@@ -78,9 +102,15 @@
   margin: 9px 0;
 }
 
+.TimelineDot.Low {
+  top: 37px;
+}
+
 @media screen and (max-width: 993px) {
   .TimelineCardParent {
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+    align-items: flex-end;
   }
   .TimelineCard {
     width: 96%;
@@ -91,10 +121,32 @@
   .TimelineDot {
     left: 0px;
   }
+  .TimelineDot.Low {
+    top: calc(50% + 7px);
+  }
   .Arrow.Left {
     left: -10px;
     border: medium solid #fff;
     border-width: 10px 10px 10px 0;
     border-color: transparent #fff transparent transparent;
+  }
+  .TimelineCard.Low {
+    top: unset;
+  }
+  .TimelineCard.High {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .YearLabel {
+    font-size: 5vw;
+  }
+
+  .NameLabel {
+    font-size: 4vw;
+  }
+  .OtherInfoLabel {
+    font-size: 3vw;
   }
 }
