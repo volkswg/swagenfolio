@@ -20,7 +20,9 @@ import torklaLogo from "../../assets/image/project_img/Torkla_02.jpg";
 // import achievement image
 import hackathonLogo from "../../assets/image/project_img/hackathon_logo.jpg";
 import tictaLogo from "../../assets/image/project_img/ticta_logo.jpg";
-import nscLogo from "../../assets/image/project_img/nsc_logo.png";
+// import nscLogo from "../../assets/image/project_img/nsc_logo.png";
+import nsc2014Logo from "../../assets/image/project_img/NSC2014_cover.jpg";
+import nsc2015Logo from "../../assets/image/project_img/NSC2015_cover.jpg";
 import mosLogo from "../../assets/image/project_img/mos2014_logo.jpg";
 import mmDashLogo from "../../assets/image/project_img/mmDash_logo.jpg";
 import mmHLogo from "../../assets/image/project_img/Monmon_logo.jpg";
@@ -78,7 +80,7 @@ class MainScreen extends Component {
       {
         img: rawImg,
         year: "2019 - Present",
-        name: "ReadAWrite Website",
+        name: "ReadAWrite Dev",
         otherInfo: "MEB CORPORATION LTD.",
       },
       {
@@ -109,13 +111,13 @@ class MainScreen extends Component {
         otherInfo: "Thailand ICT Award 2015",
       },
       {
-        img: nscLogo,
+        img: nsc2015Logo,
         year: "2015",
         name: "1st Runner-Up",
         otherInfo: "National Software Contest 2015",
       },
       {
-        img: nscLogo,
+        img: nsc2014Logo,
         year: "2014",
         name: "Honorable Mention Award",
         otherInfo: "National Software Contest 2014",
