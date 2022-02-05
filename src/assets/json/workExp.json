@@ -1,17 +1,20 @@
 [
   {
+    "id": "RAW01",
     "img": "/image/workExp/readawrite_logo.jpg",
     "year": "2019 - Present",
     "name": "Web Developer",
     "otherInfo": "MEB CORPORATION LTD."
   },
   {
+    "id": "PIC01",
     "img": "/image/workExp/PICO_logo.png",
     "year": "2018",
     "name": "Internship",
     "otherInfo": "Pico (Thailand) Public Co., Ltd."
   },
   {
+    "id": "TKA01",
     "img": "/image/workExp/Torkla_02.jpg",
     "year": "2014",
     "name": "ต่อกล้าให้เติบใหญ่ (Newseed) #2",
