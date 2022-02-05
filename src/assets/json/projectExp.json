@@ -1,0 +1,44 @@
+[
+  {
+    "img": "/image/projectExp/sitinnovate_logo.png",
+    "year": "2021",
+    "name": "SIT Inovate Website",
+    "otherInfo": "SIT Innovate co.ltd."
+  },
+  {
+    "img": "/image/projectExp/thaiaupair_logo.PNG",
+    "year": "2021",
+    "name": "Thai Aupair Website",
+    "otherInfo": "Thaiaupair"
+  },
+  {
+    "img": "/image/projectExp/eterno64_logo.PNG",
+    "year": "2020",
+    "name": "The Eterno 64 Website",
+    "otherInfo": "The Eterno 64 Townhome"
+  },
+  {
+    "img": "/image/projectExp/his_sim.jpg",
+    "year": "2019",
+    "name": "HIS Simulation",
+    "otherInfo": "Computer Engineering (KMUTT)"
+  },
+  {
+    "img": "/image/projectExp/HappyTownLogo.jpg",
+    "year": "2015",
+    "name": "Happy Town",
+    "otherInfo": "The Prince Royal's College"
+  },
+  {
+    "img": "/image/projectExp/mmDash_logo.jpg",
+    "year": "2015",
+    "name": "Monmon dash",
+    "otherInfo": "The Prince Royal's College"
+  },
+  {
+    "img": "/image/projectExp/Monmon_logo.jpg",
+    "year": "2015",
+    "name": "Monmon: hiding the hanky",
+    "otherInfo": "The Prince Royal's College"
+  }
+]
