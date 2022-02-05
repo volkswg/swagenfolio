@@ -8,7 +8,7 @@ const NotFound = () => {
     <Container style={{ paddingTop: "70px", textAlign: "center" }}>
       <div style={{ fontSize: "10rem", fontWeight: "bold", color: "#3a3a3a" }}>404</div>
       <div style={{ fontSize: "2rem" }}>Page Not Found</div>
-      <Link class={classes.BackLink} to={"/"}>
+      <Link className={classes.BackLink} to={"/"}>
         &lt; Back to Home Page
       </Link>
     </Container>
