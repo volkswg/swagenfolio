@@ -3,7 +3,7 @@ import { Container } from "reactstrap";
 import TimelineCard from "./TimelineCard/TimelineCard";
 
 const Timeline = (props) => {
-  const { timelineHeader, timelineData } = props;
+  const { timelineHeader, timelineData, dataType } = props;
 
   let tempGroupList = [];
   const renderTimelineList = [];
@@ -44,6 +44,7 @@ const Timeline = (props) => {
             <TimelineCard
               key={`${elem.name}#${index}`}
               dataList={elem}
+              dataType={dataType}
               // cardImg={elem.img}
               // cardYear={elem.year}
               // cardName={elem.name}

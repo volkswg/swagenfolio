@@ -15,9 +15,14 @@ const MainScreen = () => {
     <div>
       <MainCover />
       <BasicInfo />
-      <Timeline timelineHeader="EXPERIENCE" timelineData={workExp} />
-      <Timeline timelineHeader="ACHIEVEMENT" timelineData={achievementList} />
-      <Timeline timelineHeader="PROJECT" timelineData={projectExp} />
+      <Timeline timelineHeader="EXPERIENCE" timelineData={workExp} dataType="work" />
+      <Timeline
+        timelineHeader="ACHIEVEMENT"
+        timelineData={achievementList}
+        dataType="achievement"
+      />
+      <Timeline timelineHeader="PROJECT" timelineData={projectExp} dataType="project" />
+      <div style={{ height: 50, backgroundColor: "#f6f6f6" }}></div>
     </div>
   );
 };
