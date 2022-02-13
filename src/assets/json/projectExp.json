@@ -4,21 +4,25 @@
     "img": "/image/projectExp/sitinnovate_logo.png",
     "year": "2021",
     "name": "SIT Innovate Website",
-    "otherInfo": "SIT Innovate co.ltd."
+    "otherInfo": "SIT Innovate co.ltd.",
+    "content": "<img src=\"/image/projectExp/SIT01/sitinnovateMockDesign.jpg\"  style=\"width: 1000px;max-width: 80%;\">",
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.png" }]
   },
   {
     "id": "AUP01",
     "img": "/image/projectExp/thaiaupair_logo.PNG",
     "year": "2021",
     "name": "Thai Aupair Website",
-    "otherInfo": "Thaiaupair"
+    "otherInfo": "Thaiaupair",
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.png" }]
   },
   {
     "id": "ETN01",
     "img": "/image/projectExp/eterno64_logo.PNG",
     "year": "2020",
     "name": "The Eterno 64 Website",
-    "otherInfo": "The Eterno 64 Townhome"
+    "otherInfo": "The Eterno 64 Townhome",
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.png" }]
   },
   {
     "id": "HIS01",
