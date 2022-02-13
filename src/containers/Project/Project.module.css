@@ -1,0 +1,13 @@
+.Header > .Title {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.Header > .SubTitle {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.AuthorSection {
+  margin-top: 10px;
+}
