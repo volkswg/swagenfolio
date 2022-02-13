@@ -7,6 +7,7 @@ import NavBar from "../components/NavBar/NavBar";
 
 import HomePage from "./HomePage/HomePage";
 import NotFound from "./404PageNotFound/NotFound";
+import Project from "./Project/Project";
 
 // import SlideShow from "./component/SlideShow";
 // import TabContainer from "./component/tab-container/TabContainer";
@@ -20,9 +21,11 @@ class App extends Component {
           <NavBar />
           <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route path="/project" component={Project} />
+            <Route path="/work" component={Project} />
+            <Route path="/achievement" component={Project} />
             <Route component={NotFound} />
           </Switch>
-          <div style={{ height: 50, backgroundColor: "#f6f6f6" }}></div>
         </div>
       </BrowserRouter>
     );
