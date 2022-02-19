@@ -26,7 +26,7 @@
     "name": "The Eterno 64 Website",
     "otherInfo": "The Eterno 64 Townhome",
     "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
-    "stack": null
+    "stack": ["ReactJS"]
   },
   {
     "id": "HIS01",
