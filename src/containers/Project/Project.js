@@ -5,6 +5,7 @@ import achievementData from "../../assets/json/achievementExp.json";
 import projectData from "../../assets/json/projectExp.json";
 
 import classes from "./Project.module.css";
+import "./ContentStyle.css";
 import Author from "./author/author";
 
 const Project = (props) => {
@@ -34,15 +35,13 @@ const Project = (props) => {
 
   const [filteredDataContent] = dataContents.filter((elem) => elem.id === contentId);
   console.log(filteredDataContent);
-  const content = filteredDataContent.content;
-  const author = filteredDataContent.author;
-  console.log(author);
+  const { content, author, stack } = filteredDataContent;
 
   return (
     <div>
       <div style={{ marginTop: 47.5 }}></div>
-      <Container>
-        <div className={classes.Header} style={{ textAlign: "center" }}>
+      <div className={classes.Header} style={{ textAlign: "center" }}>
+        <Container>
           <div className={classes.Title}>{filteredDataContent.name}</div>
           <div className={classes.SubTitle}>{filteredDataContent.otherInfo}</div>
           <div className={classes.AuthorSection}>
@@ -50,13 +49,22 @@ const Project = (props) => {
               author.map((elem) => <Author key={elem.name} name={elem.name} img={elem.img} />)}
             {/* <Author name="Saranpat" /> */}
           </div>
+        </Container>
+        <div className={classes.TechStack}>
+          {stack && (
+            <Container>
+              <div style={{ fontSize: 24, fontWeight: 500 }}>Tech Stack</div>
+              <div>
+                {stack.map((elem) => (
+                  <img src={`/image/techstack_icon/${elem}.png`} style={{ width: 60 }} />
+                ))}
+              </div>
+            </Container>
+          )}
         </div>
-        <div style={{ textAlign: "center" }} dangerouslySetInnerHTML={{ __html: content }}>
-          {/* <img
-            src="/image/projectExp/SIT01/sitinnovateMockDesign.jpg"
-            style={{ width: 1000, maxWidth: "80%" }}
-          /> */}
-        </div>
+      </div>
+      <Container>
+        <div style={{ textAlign: "center" }} dangerouslySetInnerHTML={{ __html: content }}></div>
       </Container>
     </div>
   );

@@ -1,13 +1,19 @@
-.Header > .Title {
+.Header .Title {
   font-size: 50px;
   font-weight: 500;
 }
 
-.Header > .SubTitle {
+.Header .SubTitle {
   font-size: 25px;
   font-weight: 300;
 }
 
 .AuthorSection {
-  margin-top: 10px;
+  margin: 15px 0;
+}
+
+.Header .TechStack {
+  background-color: rgb(233, 233, 233);
+  padding: 10px 0;
+  margin: 10px 0;
 }
