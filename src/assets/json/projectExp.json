@@ -6,7 +6,7 @@
     "name": "SIT Innovate Website",
     "otherInfo": "SIT Innovate co.ltd.",
     "content": "<img src=\"/image/projectExp/SIT01/sitinnovateMockDesign.jpg\"  style=\"width: 1000px;max-width: 80%;\">",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.png" }]
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }]
   },
   {
     "id": "AUP01",
@@ -14,7 +14,7 @@
     "year": "2021",
     "name": "Thai Aupair Website",
     "otherInfo": "Thaiaupair",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.png" }]
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }]
   },
   {
     "id": "ETN01",
@@ -22,7 +22,7 @@
     "year": "2020",
     "name": "The Eterno 64 Website",
     "otherInfo": "The Eterno 64 Townhome",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.png" }]
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }]
   },
   {
     "id": "HIS01",

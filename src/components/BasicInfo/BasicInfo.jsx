@@ -24,7 +24,7 @@ class BasicInfo extends Component {
       <Container className={classes.BasicInfoContianer}>
         <div style={{ textAlign: "center", marginBottom: 40 }}>
           <img
-            src={require("../../assets/image/profilePic1.png")}
+            src="image/profilePic1.jpg"
             alt=""
             style={{ width: "25%", borderRadius: "100%", minWidth: 225 }}
           />
@@ -44,8 +44,8 @@ class BasicInfo extends Component {
             marginBottom: 45,
           }}
         >
-          I'm {my_age} years old, I graduated from King Mongkut's University of
-          Technology Thonburi (KMUTT).
+          I'm {my_age} years old, I graduated from King Mongkut's University of Technology Thonburi
+          (KMUTT).
           <br />
           Computer Engineering.
         </p>
