@@ -50,20 +50,20 @@ const Project = (props) => {
             {/* <Author name="Saranpat" /> */}
           </div>
         </Container>
-        <div className={classes.TechStack}>
-          {stack && (
+        {stack && (
+          <div className={classes.TechStack}>
             <Container>
               <div style={{ fontSize: 24, fontWeight: 500 }}>Tech Stack</div>
               <div>
                 {stack.map((elem) => (
-                  <img src={`/image/techstack_icon/${elem}.png`} style={{ width: 60 }} />
+                  <img src={`/image/techstack_icon/${elem}.png`} style={{ width: 60 }} alt={elem} />
                 ))}
               </div>
             </Container>
-          )}
-        </div>
+          </div>
+        )}
       </div>
-      <Container>
+      <Container style={{ marginBottom: 40 }}>
         <div style={{ textAlign: "center" }} dangerouslySetInnerHTML={{ __html: content }}></div>
       </Container>
     </div>
