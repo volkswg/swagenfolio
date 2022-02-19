@@ -20,7 +20,7 @@
 }
 
 .CardImage img {
-  width: 40%;
+  width: 50%;
 }
 
 .CardContactType {
@@ -29,6 +29,7 @@
 }
 
 .LinkStyle {
+  flex: 1;
   text-decoration: none;
   color: #272727;
 }
