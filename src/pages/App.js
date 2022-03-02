@@ -4,13 +4,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import NavBar from "../components/layout/nav-bar/nav-bar";
 
-import HomePage from "./home-page/home-page";
-import NotFound from "./not-found-page/not-found";
-import Project from "./ProjectPage/Project";
-
-// import SlideShow from "./component/SlideShow";
-// import TabContainer from "./component/tab-container/TabContainer";
-// import ProjectTab from "./component/tab-container/ProjectTab";
+import HomePage from "./home/home";
+import NotFound from "./not-found/not-found";
+import Project from "./project/project";
 
 class App extends Component {
   render() {
