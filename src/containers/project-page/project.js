@@ -4,8 +4,8 @@ import workData from "../../assets/json/workExp.json";
 import achievementData from "../../assets/json/achievementExp.json";
 import projectData from "../../assets/json/projectExp.json";
 
-import classes from "./Project.module.css";
-import "./ContentStyle.css";
+import classes from "./project.module.css";
+import "./content-style.css";
 import Author from "../../components/project-page-comp/authors-obj/authors";
 
 const Project = (props) => {
