@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 import { Link } from "react-router-dom";
-import classes from "./NotFound.module.css";
+import classes from "./not-found.module.css";
 
 const NotFound = () => {
   return (
