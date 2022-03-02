@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./CardElem.module.css";
+import classes from "./card-elem.module.css";
 
 const CardElem = ({ url, logo_src, contract_type, contract_info }) => {
   return (

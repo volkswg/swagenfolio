@@ -2,7 +2,7 @@ import React from "react";
 // import { Container } from "reactstrap";
 
 import MainCover from "../../components/home-page-comp/main-cover/main-cover";
-import BasicInfo from "../../components/BasicInfo/BasicInfo";
+import BasicInfo from "../../components/home-page-comp/basic-info/basic-info";
 import Timeline from "../../components/Timeline/Timeline";
 
 // json

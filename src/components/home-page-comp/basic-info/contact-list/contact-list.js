@@ -1,5 +1,5 @@
 import React from "react";
-import CardElem from "./CardElem/CardElem";
+import CardElem from "./card-elem/card-elem";
 
 const ContactList = () => {
   return (
