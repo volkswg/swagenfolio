@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 
-import classes from "./MainCover.module.css";
+import classes from "./main-cover.module.css";
 
 const MainCover = () => {
   return (
