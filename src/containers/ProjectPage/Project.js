@@ -47,7 +47,6 @@ const Project = (props) => {
           <div className={classes.AuthorSection}>
             {author &&
               author.map((elem) => <Author key={elem.name} name={elem.name} img={elem.img} />)}
-            {/* <Author name="Saranpat" /> */}
           </div>
         </Container>
         {stack && (
