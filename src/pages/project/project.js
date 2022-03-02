@@ -55,7 +55,7 @@ const Project = (props) => {
               <div style={{ fontSize: 24, fontWeight: 500 }}>Tech Stack</div>
               <div>
                 {stack.map((elem) => (
-                  <img src={`/image/techstack_icon/${elem}.png`} style={{ width: 60 }} alt={elem} />
+                  <img src={`/image/techstack-icon/${elem}.png`} style={{ width: 60 }} alt={elem} />
                 ))}
               </div>
             </Container>
