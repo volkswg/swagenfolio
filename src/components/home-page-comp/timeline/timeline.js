@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import TimelineCard from "./TimelineCard/TimelineCard";
+import TimelineCard from "./timeline-card/timeline-card";
 
 const Timeline = (props) => {
   const { timelineHeader, timelineData, dataType } = props;

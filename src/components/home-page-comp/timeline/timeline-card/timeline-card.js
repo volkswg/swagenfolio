@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import classes from "./TimelineCard.module.css";
+import classes from "./timeline-card.module.css";
 
 const TimelineCard = (props) => {
   const { dataList, dataType } = props;

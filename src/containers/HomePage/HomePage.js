@@ -3,7 +3,7 @@ import React from "react";
 
 import MainCover from "../../components/home-page-comp/main-cover/main-cover";
 import BasicInfo from "../../components/home-page-comp/basic-info/basic-info";
-import Timeline from "../../components/Timeline/Timeline";
+import Timeline from "../../components/home-page-comp/timeline/timeline";
 
 // json
 import projectExp from "../../assets/json/projectExp.json";
