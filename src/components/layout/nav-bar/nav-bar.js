@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, NavbarBrand, Container } from "reactstrap";
 
-import classes from "./NavBar.module.css";
+import classes from "./nav-bar.module.css";
 
 const NavBar = () => {
   let [navColor, setNavColor] = useState("fadded");

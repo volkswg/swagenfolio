@@ -2,12 +2,11 @@ import React, { Component } from "react";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-// import LandingPage from "./component/LandingPage";
-import NavBar from "../components/NavBar/NavBar";
+import NavBar from "../components/layout/nav-bar/nav-bar";
 
 import HomePage from "./HomePage/HomePage";
-import NotFound from "./404PageNotFound/NotFound";
-import Project from "./Project/Project";
+import NotFound from "./404PageNotFoundPage/NotFound";
+import Project from "./ProjectPage/Project";
 
 // import SlideShow from "./component/SlideShow";
 // import TabContainer from "./component/tab-container/TabContainer";
