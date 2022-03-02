@@ -26,7 +26,8 @@
     "name": "The Eterno 64 Website",
     "otherInfo": "The Eterno 64 Townhome",
     "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
-    "stack": ["ReactJS"]
+    "stack": ["ReactJS"],
+    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/ETN01/eterno_web.jpg\" style=\"width: 1000px;max-width: 80%;\"><a class=\"LinkButton\" href=\"https://eterno64-web.web.app/\" target=\"_blank\">Click to Open Website</a></div></div><div>Webcontent</div>"
   },
   {
     "id": "HIS01",
@@ -34,7 +35,8 @@
     "year": "2019",
     "name": "HIS Simulation",
     "otherInfo": "Computer Engineering (KMUTT)",
-    "stack": null
+    "stack": ["ReactJS"],
+    "content": ""
   },
   {
     "id": "HPY01",
@@ -42,7 +44,8 @@
     "year": "2015",
     "name": "Happy Town",
     "otherInfo": "The Prince Royal's College",
-    "stack": null
+    "stack": [],
+    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/HPY01/HappyTown.PNG\" style=\"width: 1000px;max-width: 80%;\"><a class=\"LinkButton\" href=\"https://eterno64-web.web.app/\" target=\"_blank\">Click to Open Website</a></div></div><div>Webcontent</div>"
   },
   {
     "id": "MMD01",
