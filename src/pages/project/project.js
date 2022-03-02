@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Container } from "reactstrap";
 import workData from "../../assets/json/workExp.json";
 import achievementData from "../../assets/json/achievementExp.json";
@@ -9,6 +10,7 @@ import "./content-style.css";
 import Author from "../../components/project-page-comp/authors-obj/authors";
 
 const Project = (props) => {
+  let history = useHistory();
   const currentLocation = props.location;
   const currentPath = currentLocation.pathname;
   const pathToList = currentPath.split("/");
@@ -29,12 +31,19 @@ const Project = (props) => {
       dataContents = projectData;
       break;
     default:
-      this.props.history.push("/404");
+      history.push("/404");
       break;
   }
 
-  const [filteredDataContent] = dataContents.filter((elem) => elem.id === contentId);
+  const [filteredDataContent] = dataContents.filter(
+    (elem) => elem.id === contentId
+  );
   console.log(filteredDataContent);
+  if (!filteredDataContent) {
+    console.log("go to 404");
+    history.push("/404");
+    return <div></div>;
+  }
   const { content, author, stack } = filteredDataContent;
 
   return (
@@ -43,10 +52,14 @@ const Project = (props) => {
       <div className={classes.Header} style={{ textAlign: "center" }}>
         <Container>
           <div className={classes.Title}>{filteredDataContent.name}</div>
-          <div className={classes.SubTitle}>{filteredDataContent.otherInfo}</div>
+          <div className={classes.SubTitle}>
+            {filteredDataContent.otherInfo}
+          </div>
           <div className={classes.AuthorSection}>
             {author &&
-              author.map((elem) => <Author key={elem.name} name={elem.name} img={elem.img} />)}
+              author.map((elem) => (
+                <Author key={elem.name} name={elem.name} img={elem.img} />
+              ))}
           </div>
         </Container>
         {stack && (
@@ -55,7 +68,11 @@ const Project = (props) => {
               <div style={{ fontSize: 24, fontWeight: 500 }}>Tech Stack</div>
               <div>
                 {stack.map((elem) => (
-                  <img src={`/image/techstack-icon/${elem}.png`} style={{ width: 60 }} alt={elem} />
+                  <img
+                    src={`/image/techstack-icon/${elem}.png`}
+                    style={{ width: 60 }}
+                    alt={elem}
+                  />
                 ))}
               </div>
             </Container>
@@ -63,7 +80,10 @@ const Project = (props) => {
         )}
       </div>
       <Container style={{ marginBottom: 40 }}>
-        <div style={{ textAlign: "center" }} dangerouslySetInnerHTML={{ __html: content }}></div>
+        <div
+          style={{ textAlign: "center" }}
+          dangerouslySetInnerHTML={{ __html: content }}
+        ></div>
       </Container>
     </div>
   );
