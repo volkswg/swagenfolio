@@ -4,8 +4,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import NavBar from "../components/layout/nav-bar/nav-bar";
 
-import HomePage from "./HomePage/HomePage";
-import NotFound from "./404PageNotFoundPage/NotFound";
+import HomePage from "./home-page/home-page";
+import NotFound from "./not-found-page/not-found";
 import Project from "./ProjectPage/Project";
 
 // import SlideShow from "./component/SlideShow";
