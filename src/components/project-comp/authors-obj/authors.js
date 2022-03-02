@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./author.module.css";
+import classes from "./authors.module.css";
 
 const Author = (props) => {
   const { name, img } = props;

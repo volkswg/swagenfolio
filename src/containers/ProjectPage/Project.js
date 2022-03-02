@@ -6,7 +6,7 @@ import projectData from "../../assets/json/projectExp.json";
 
 import classes from "./Project.module.css";
 import "./ContentStyle.css";
-import Author from "./author/author";
+import Author from "../../components/project-comp/authors-obj/authors";
 
 const Project = (props) => {
   const currentLocation = props.location;
