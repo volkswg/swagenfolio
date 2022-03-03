@@ -9,9 +9,9 @@ const NavBar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      const smallerNavBar = window.scrollY <= window.innerHeight - 50;
-      setNavColor(smallerNavBar ? "fadded" : "light");
-      setBrandFontSize(smallerNavBar ? 25 : 20);
+      const isTransparentBar = window.scrollY < 10;
+      setNavColor(isTransparentBar ? "fadded" : "light");
+      setBrandFontSize(isTransparentBar ? 25 : 20);
     });
   }, []);
 
