@@ -19,7 +19,7 @@ const Timeline = (props) => {
 
   return (
     <div style={{ backgroundColor: "#f6f6f6", overflow: "hidden" }}>
-      <Container>
+      <Container style={{ marginBottom: 25 }}>
         <h1
           style={{
             textAlign: "center",
@@ -30,26 +30,8 @@ const Timeline = (props) => {
           {timelineHeader}
         </h1>
         <div style={{ position: "relative", display: "flex", flexDirection: "column" }}>
-          {/* {timelineData &&
-            timelineData.map((elem, index) => (
-              <TimelineCard
-                cardPos={index % 2 !== 0 ? "right" : ""}
-                cardImg={elem.img}
-                cardYear={elem.year}
-                cardName={elem.name}
-                otherInfo={elem.otherInfo}
-              />
-            ))} */}
           {renderTimelineList.map((elem, index) => (
-            <TimelineCard
-              key={`${elem.name}#${index}`}
-              dataList={elem}
-              dataType={dataType}
-              // cardImg={elem.img}
-              // cardYear={elem.year}
-              // cardName={elem.name}
-              // otherInfo={elem.otherInfo}
-            />
+            <TimelineCard key={`${elem.name}#${index}`} dataList={elem} dataType={dataType} />
           ))}
         </div>
       </Container>
