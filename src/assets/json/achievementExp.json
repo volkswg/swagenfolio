@@ -4,34 +4,44 @@
     "img": "/image/achievementList/hackathon_logo.jpg",
     "year": "2018",
     "name": "3rd Runner-Up",
-    "otherInfo": "Thailand Open Hackathron 2018"
+    "otherInfo": "Thailand Open Hackathron 2018",
+    "stack": null,
+    "content": "<div style=\"position: relative\"><div><img src=\"/image/achievementList/HAK01/1.jpg\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/HAK01/2.jpg\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/HAK01/3.jpg\" class=\"ContentImage\" /></div></div>"
   },
   {
     "id": "TIC01",
     "img": "/image/achievementList/ticta_logo.jpg",
     "year": "2015",
     "name": "1st Runner-Up",
-    "otherInfo": "Thailand ICT Award 2015"
+    "otherInfo": "Thailand ICT Award 2015",
+    "stack": null,
+    "content": "<div style=\"position: relative\"><div><img src=\"/image/achievementList/TIC01/2.jpg\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/TIC01/1.jpg\" class=\"ContentImage\" /></div></div>"
   },
   {
     "id": "NSC01",
     "img": "/image/achievementList/NSC2015_cover.jpg",
     "year": "2015",
     "name": "1st Runner-Up",
-    "otherInfo": "National Software Contest 2015"
+    "otherInfo": "National Software Contest 2015",
+    "stack": null,
+    "content": "<div style=\"position: relative\"><div><img src=\"/image/achievementList/NSC01/1.jpg\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/NSC01/HappyTown.PNG\" class=\"ContentImage\" /></div></div>"
   },
   {
     "id": "NSC02",
     "img": "/image/achievementList/NSC2014_cover.jpg",
     "year": "2014",
     "name": "Honorable Mention Award",
-    "otherInfo": "National Software Contest 2014"
+    "otherInfo": "National Software Contest 2014",
+    "stack": null,
+    "content": "<div style=\"position: relative\"><div><img src=\"/image/achievementList/NSC02/1.jpg\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/NSC02/2.jpg\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/NSC02/Monmon_Cover.png\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/NSC02/certificate.jpg\" class=\"ContentImage\" /></div></div>"
   },
   {
     "id": "MOS03",
     "img": "/image/achievementList/mos2014_logo.jpg",
     "year": "2014",
     "name": "Bronze Medal",
-    "otherInfo": "MOS Olympic (Excel 2010)"
+    "otherInfo": "MOS Olympic (Excel 2010)",
+    "stack": null,
+    "content": "<div style=\"position: relative\"><div><img src=\"/image/achievementList/MOS01/1.jpg\" class=\"ContentImage\" /></div><div><img src=\"/image/achievementList/MOS01/certificate.jpg\" class=\"ContentImage\" /></div></div>"
   }
 ]

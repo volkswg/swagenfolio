@@ -7,7 +7,17 @@
     "otherInfo": "",
     "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
     "stack": ["Python"],
-    "content": "<div style=\"position: relative\"><div><div><img src=\"\" style=\"width: 1000px; max-width: 80%\" /></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/YTXLpk9MucE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div></div>"
+    "content": "<div style=\"position: relative\"><div><div><img class=\"ContentImage\" src=\"\"/></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/YTXLpk9MucE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div></div>"
+  },
+  {
+    "id": "BOT02",
+    "img": "/image/projectExp/puppeteer_autofill.jpg",
+    "year": "2022",
+    "name": "Google Form Autofill",
+    "otherInfo": "",
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
+    "stack": ["Nodejs"],
+    "content": "<div style=\"position: relative\"><div><div><img src=\"\" class=\"ContentImage\"/></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/YTXLpk9MucE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div></div>"
   },
   {
     "id": "SIT01",
@@ -17,7 +27,7 @@
     "otherInfo": "SIT Innovate co.ltd.",
     "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
     "stack": ["NextJS"],
-    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/SIT01/sitinnovateMockDesign.jpg\" style=\"width: 1000px;max-width: 80%;\"><a class=\"LinkButton\" href=\"https://www.sitinnovate.com\" target=\"_blank\">Click to Open Website</a></div></div><div>พัฒนาเว็บไซด์สำหรับให้ข้อมูลกับลูกค้าที่ต้องการมาติดต่อกับทางบริษัท SIT innovate โดยใช้ NextJS ในการพัฒนา</div>"
+    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/SIT01/sitinnovateMockDesign.jpg\" class=\"ContentImage\"/><a class=\"LinkButton\" href=\"https://www.sitinnovate.com\" target=\"_blank\">Click to Open Website</a></div></div><div>พัฒนาเว็บไซด์สำหรับให้ข้อมูลกับลูกค้าที่ต้องการมาติดต่อกับทางบริษัท SIT innovate โดยใช้ NextJS ในการพัฒนา</div>"
   },
   {
     "id": "AUP01",
@@ -27,7 +37,7 @@
     "otherInfo": "Thaiaupair",
     "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
     "stack": ["PHP", "HTML", "CSS", "JavaScript"],
-    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/AUP01/thaiaupair_web.jpg\" style=\"width: 1000px;max-width: 80%;\"><a class=\"LinkButton\" href=\"https://www.thaiaupair.com\" target=\"_blank\">Click to Open Website</a></div></div><div>ทำการปรับปรุงเว็บไซด์ Thaiaupair ให้สามารถแก้ไขข้อมูลของหน้าเว็บไซด์โดยที่ไม่ต้องแก้ code ของตัวเว็บไซด์ (Content Management System) โดยการทำระบบหลังบ้าน (Admin) ที่สามารถแก้ไขเนื้อหน้าของแต่ละหน้าได้โดยใช้ CKeditor (Rich text editor) ในการจัดหน้าที่สร้างใหม่</div>"
+    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/AUP01/thaiaupair_web.jpg\" class=\"ContentImage\"/><a class=\"LinkButton\" href=\"https://www.thaiaupair.com\" target=\"_blank\">Click to Open Website</a></div></div><div>ทำการปรับปรุงเว็บไซด์ Thaiaupair ให้สามารถแก้ไขข้อมูลของหน้าเว็บไซด์โดยที่ไม่ต้องแก้ code ของตัวเว็บไซด์ (Content Management System) โดยการทำระบบหลังบ้าน (Admin) ที่สามารถแก้ไขเนื้อหน้าของแต่ละหน้าได้โดยใช้ CKeditor (Rich text editor) ในการจัดหน้าที่สร้างใหม่</div>"
   },
   {
     "id": "ETN01",
@@ -37,7 +47,7 @@
     "otherInfo": "The Eterno 64 Townhome",
     "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
     "stack": ["ReactJS"],
-    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/ETN01/eterno_web.jpg\" style=\"width: 1000px;max-width: 80%;\"><a class=\"LinkButton\" href=\"https://eterno64-web.web.app/\" target=\"_blank\">Click to Open Website</a></div></div><div>Webcontent</div>"
+    "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/ETN01/eterno_web.jpg\" class=\"ContentImage\"/><a class=\"LinkButton\" href=\"https://eterno64-web.web.app/\" target=\"_blank\">Click to Open Website</a></div></div><div>Webcontent</div>"
   },
   {
     "id": "HIS01",
@@ -46,7 +56,7 @@
     "name": "HIS Simulation",
     "otherInfo": "Computer Engineering (KMUTT)",
     "stack": ["ReactJS", "MySQL"],
-    "content": "<div style=\"position: relative\"><div><div><img src=\"/image/projectExp/HIS01/his_sim_main.jpg\" style=\"width: 1000px; max-width: 80%\" /></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/SQS3xsCkW-g\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div></div>"
+    "content": "<div style=\"position: relative\"><div><div><img src=\"/image/projectExp/HIS01/his_sim_main.jpg\" class=\"ContentImage\"/></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/SQS3xsCkW-g\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div></div>"
   },
   {
     "id": "HPY01",
@@ -55,7 +65,7 @@
     "name": "Happy Town",
     "otherInfo": "The Prince Royal's College",
     "stack": ["Unity3D"],
-    "content": "<div style=\"position:relative;\"><div><div><img src=\"/image/projectExp/HPY01/HappyTownLogo.PNG\" style=\"width: 1000px;max-width: 80%;\"></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/ls16IvhywPk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div>"
+    "content": "<div style=\"position:relative;\"><div><div><img src=\"/image/projectExp/HPY01/HappyTownLogo.PNG\" class=\"ContentImage\"/></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/ls16IvhywPk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div>"
   },
   {
     "id": "MMD01",
@@ -64,7 +74,7 @@
     "name": "Monmon dash",
     "otherInfo": "The Prince Royal's College",
     "stack": ["Unity3D"],
-    "content": "<div style=\"position:relative;\"><div><div><img src=\"/image/projectExp/MMD01/MonmonD_Cover.jpg\" style=\"width: 1000px;max-width: 80%;\"></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/_j8g8xd6i-E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div>"
+    "content": "<div style=\"position:relative;\"><div><div><img src=\"/image/projectExp/MMD01/MonmonD_Cover.jpg\" class=\"ContentImage\" /></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/_j8g8xd6i-E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div>"
   },
   {
     "id": "MMH01",
@@ -73,6 +83,6 @@
     "name": "Monmon: hiding the hanky",
     "otherInfo": "The Prince Royal's College",
     "stack": ["Unity3D"],
-    "content": "<div style=\"position:relative;\"><div><div><img src=\"/image/projectExp/MMH01/Monmon_Cover.png\" style=\"width: 1000px;max-width: 80%;\"></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/phJqnTSJdy8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div>"
+    "content": "<div style=\"position:relative;\"><div><div><img src=\"/image/projectExp/MMH01/Monmon_Cover.png\" class=\"ContentImage\"/></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/phJqnTSJdy8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div>"
   }
 ]
