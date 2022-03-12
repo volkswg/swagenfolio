@@ -4,20 +4,26 @@
     "img": "/image/workExp/readawrite_logo.jpg",
     "year": "2019 - Present",
     "name": "Web Developer",
-    "otherInfo": "MEB CORPORATION LTD."
+    "otherInfo": "MEB CORPORATION LTD.",
+    "stack": ["PHP", "HTML", "CSS", "JavaScript"],
+    "content": ""
   },
   {
     "id": "PIC01",
     "img": "/image/workExp/PICO_logo.png",
     "year": "2018",
     "name": "Internship",
-    "otherInfo": "Pico (Thailand) Public Co., Ltd."
+    "otherInfo": "Pico (Thailand) Public Co., Ltd.",
+    "stack": ["Python"],
+    "content": ""
   },
   {
     "id": "TKA01",
     "img": "/image/workExp/Torkla_02.jpg",
     "year": "2014",
     "name": "ต่อกล้าให้เติบใหญ่ (Newseed) #2",
-    "otherInfo": "มูลนิธิสยามกัมมาจล (SCB Foundation)"
+    "otherInfo": "มูลนิธิสยามกัมมาจล (SCB Foundation)",
+    "stack": ["Unity3D"],
+    "content": ""
   }
 ]
