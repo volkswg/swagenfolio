@@ -28,6 +28,7 @@
   display: flex;
   border-radius: 5px;
   color: rgb(54, 54, 54);
+  overflow: hidden;
 }
 
 .TimelineCard.Low {
@@ -43,6 +44,7 @@
   width: 35%;
   border-radius: 5px 0 0 5px;
   overflow: hidden;
+  box-shadow: #e7e7e7 2px 0px 15px 0px;
 }
 .TimelineCard > .TxtSection {
   width: 65%;
