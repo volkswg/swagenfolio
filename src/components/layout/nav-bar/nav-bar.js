@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, NavbarBrand, Container } from "reactstrap";
+import DownloadIcon from "../../svg-icon/download-icon";
 
 import classes from "./nav-bar.module.css";
 
@@ -33,6 +34,14 @@ const NavBar = () => {
           >
             Portfolio
           </NavbarBrand>
+          <a
+            className={classes.DownloadCVSection}
+            href="/resume/SaranpatFunkaewCV.pdf"
+            target={"_blank"}
+          >
+            <DownloadIcon className={classes.DownloadIcon} />
+            <div className={classes.CVText}>Resume</div>
+          </a>
         </Navbar>
       </Container>
     </div>

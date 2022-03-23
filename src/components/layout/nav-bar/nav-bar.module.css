@@ -3,6 +3,41 @@
   padding: 0 50px !important;
 }
 
+.DownloadCVSection {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+}
+
+.DownloadCVSection:hover {
+  text-decoration: none;
+}
+
+.DownloadCVSection .CVText {
+  /* font-weight: 700; */
+  margin-left: 5px;
+  color: rgb(75, 75, 75);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.DownloadCVSection .DownloadIcon {
+  width: 20px;
+  stroke: rgb(75, 75, 75);
+  stroke-width: 1px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.DownloadCVSection:hover .CVText {
+  color: rgb(0, 0, 0);
+}
+.DownloadCVSection:hover .DownloadIcon {
+  stroke: rgb(0, 0, 0);
+}
+
 /* > 768 */
 @media only screen and (max-width: 768px) {
   .NavStyle {
