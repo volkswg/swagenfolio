@@ -5,7 +5,7 @@
     "year": "2022",
     "name": "BombCrypto Bot",
     "otherInfo": "",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic.jpg" }],
     "stack": ["Python"],
     "content": "<div style=\"position: relative\"><div><div><img class=\"ContentImage\" src=\"\"/></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/YTXLpk9MucE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div></div>"
   },
@@ -15,7 +15,7 @@
     "year": "2022",
     "name": "Google Form Autofill",
     "otherInfo": "",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic.jpg" }],
     "stack": ["Nodejs"],
     "content": "<div style=\"position: relative\"><div><div><img src=\"\" class=\"ContentImage\"/></div></div><div class=\"iframe-container\"><iframe class=\"responsive-iframe\" src=\"https://www.youtube.com/embed/-PmVPMnvF_I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen ></iframe></div></div>"
   },
@@ -25,7 +25,7 @@
     "year": "2021",
     "name": "SIT Innovate Website",
     "otherInfo": "SIT Innovate co.ltd.",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic.jpg" }],
     "stack": ["NextJS"],
     "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/SIT01/sitinnovateMockDesign.jpg\" class=\"ContentImage\"/><a class=\"LinkButton\" href=\"https://www.sitinnovate.com\" target=\"_blank\">Click to Open Website</a></div></div><div>พัฒนาเว็บไซด์สำหรับให้ข้อมูลกับลูกค้าที่ต้องการมาติดต่อกับทางบริษัท SIT innovate โดยใช้ NextJS ในการพัฒนา</div>"
   },
@@ -35,7 +35,7 @@
     "year": "2021",
     "name": "Thai Aupair Website",
     "otherInfo": "Thaiaupair",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic.jpg" }],
     "stack": ["PHP", "HTML", "CSS", "JavaScript"],
     "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/AUP01/thaiaupair_web.jpg\" class=\"ContentImage\"/><a class=\"LinkButton\" href=\"https://www.thaiaupair.com\" target=\"_blank\">Click to Open Website</a></div></div><div>ทำการปรับปรุงเว็บไซด์ Thaiaupair ให้สามารถแก้ไขข้อมูลของหน้าเว็บไซด์โดยที่ไม่ต้องแก้ code ของตัวเว็บไซด์ (Content Management System) โดยการทำระบบหลังบ้าน (Admin) ที่สามารถแก้ไขเนื้อหน้าของแต่ละหน้าได้โดยใช้ CKeditor (Rich text editor) ในการจัดหน้าที่สร้างใหม่</div>"
   },
@@ -45,7 +45,7 @@
     "year": "2020",
     "name": "The Eterno 64 Website",
     "otherInfo": "The Eterno 64 Townhome",
-    "author": [{ "name": "Saranpat", "img": "/image/profilePic1.jpg" }],
+    "author": [{ "name": "Saranpat", "img": "/image/profilePic.jpg" }],
     "stack": ["ReactJS"],
     "content": "<div style=\"position:relative;\"><div class=\"ContentImgHoverable\"><div><img src=\"/image/projectExp/ETN01/eterno_web.jpg\" class=\"ContentImage\"/><a class=\"LinkButton\" href=\"https://eterno64-web.web.app/\" target=\"_blank\">Click to Open Website</a></div></div><div>Webcontent</div>"
   },

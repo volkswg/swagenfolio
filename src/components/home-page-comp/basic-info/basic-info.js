@@ -21,7 +21,7 @@ const BasicInfo = () => {
     <Container className={classes.BasicInfoContianer}>
       <div style={{ textAlign: "center", marginBottom: 40 }}>
         <img
-          src="image/profilePic1.jpg"
+          src="image/profilePic.jpg"
           alt=""
           style={{ width: "25%", borderRadius: "100%", minWidth: 225 }}
         />
@@ -41,8 +41,8 @@ const BasicInfo = () => {
           marginBottom: 45,
         }}
       >
-        I'm {my_age} years old, I graduated from King Mongkut's University of
-        Technology Thonburi (KMUTT).
+        I'm {my_age} years old, I graduated from King Mongkut's University of Technology Thonburi
+        (KMUTT).
         <br />
         Computer Engineering.
       </p>
