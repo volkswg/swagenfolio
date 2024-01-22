@@ -1,0 +1,40 @@
+.NavBarContainer {
+  display: flex;
+  padding: 0px 40px;
+  position: fixed;
+  width: 100vw;
+  column-gap: 25px;
+  z-index: 100;
+  transition: 0.2s;
+}
+
+.NavBarContainerTop {
+  align-items: flex-end;
+  height: 70px;
+}
+
+.NavBarContainerSmall {
+  background-color: #eeeeee;
+  align-items: center;
+  height: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .NavBarContainerTop {
+    align-items: center;
+    height: 40px;
+  }
+}
+
+.NavBarReservedSpace {
+  height: 40px;
+}
+
+.NavBrand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.NavMenu {
+  font-size: 18px;
+}

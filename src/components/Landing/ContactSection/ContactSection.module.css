@@ -1,0 +1,16 @@
+.ContactSectionContainer {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.ContactItem > img {
+  width: 30px;
+  filter: invert(81%) sepia(0%) saturate(1655%) hue-rotate(342deg) brightness(82%) contrast(84%);
+  transition: 0.1s;
+  cursor: pointer;
+}
+.ContactItem:hover > img {
+  filter: invert(11%) sepia(13%) saturate(7%) hue-rotate(62deg) brightness(94%) contrast(93%);;
+}

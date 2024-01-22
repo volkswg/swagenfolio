@@ -18,7 +18,7 @@ const Timeline = (props) => {
   }
 
   return (
-    <div style={{ backgroundColor: "#f6f6f6", overflow: "hidden" }}>
+    <div style={{ overflow: "hidden" }}>
       <Container style={{ marginBottom: 35 }}>
         <h1
           style={{

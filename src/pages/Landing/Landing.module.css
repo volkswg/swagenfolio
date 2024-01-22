@@ -1,0 +1,80 @@
+.landingPageBg {
+  /* background-image: url("../../assets/image/coverBg2.jpg"); */
+  /* opacity: 20%; */
+  background-position: top;
+  background-color: #f6f6f6;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.LandingPageContainer {
+  height: calc(100vh - 60px);
+  margin-bottom: 40px;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.InformationCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.InformationCol > .ContentContainer{
+  margin: auto;
+  max-width: 415px;
+}
+
+/* @media only screen and (max-width: 993px) {} */
+
+.ImageCol {
+  align-self: center;
+  text-align: center;
+}
+
+.ImageCol > img {
+  width: 60%;
+  min-width: 280px;
+}
+
+.FadedText {
+  color: #a2a2a2;
+}
+
+.DownloadCVContainer > a {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  margin-top: 20px;
+}
+
+.DownloadCVContainer > a:hover {
+  text-decoration: none;
+}
+
+.DownloadCVContainer .CVText {
+  /* font-weight: 700; */
+  margin-left: 5px;
+  color: rgb(75, 75, 75);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.DownloadCVContainer .DownloadIcon {
+  width: 20px;
+  stroke: rgb(75, 75, 75);
+  stroke-width: 1px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.DownloadCVContainer:hover .CVText {
+  color: rgb(0, 0, 0);
+}
+.DownloadCVContainer:hover .DownloadIcon {
+  stroke: rgb(0, 0, 0);
+}
