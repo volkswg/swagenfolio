@@ -11,7 +11,11 @@ import achievementList from "../../assets/json/achievementExp.json";
 const LandingPage = (props) => {
   return (
     <>
-      <div className={style.landingPageBg} />
+      <div className={style.landingPageBg}>
+        <div className={style.stars}></div>
+        <div className={style.stars2}></div>
+        <div className={style.stars3}></div>
+      </div>
       <Row className={style.LandingPageContainer}>
         <Col md={12} className={style.ImageCol}>
           <img src="image/profilePicFull.JPG" alt="" />
