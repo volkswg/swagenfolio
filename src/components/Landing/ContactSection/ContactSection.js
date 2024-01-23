@@ -28,6 +28,14 @@ const ContactSection = () => {
       >
         <img src={"image/contact/linkedin-logo.svg"} alt="" />
       </a>
+      <a
+        href="mailto: volkswg@gmail.com"
+        target="_blank"
+        rel="noreferrer"
+        className={style.ContactItem}
+      >
+        <img src={"image/contact/email-logo.svg"} alt="" />
+      </a>
       <a href="tel:+66816668881" rel="noreferrer" className={style.ContactItem}>
         <img src={"image/contact/phone-logo.svg"} alt="" />
       </a>
