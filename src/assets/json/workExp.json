@@ -1,11 +1,43 @@
 [
   {
+    "id": "SDT01",
+    "img": "/image/workExp/sunday_logo.jpg",
+    "year": "2022 - Current",
+    "name": "Full Stack Developer",
+    "otherInfo": "SUNDAY TECHNOLOGIES COMPANY LIMITED",
+    "stack": [
+      "Nextjs",
+      "Nodejs",
+      "Nestjs",
+      "MySQL"
+    ],
+    "content": ""
+  },
+  {
+    "id": "HGR01",
+    "img": "/image/workExp/hgr_logo.jpg",
+    "year": "2022",
+    "name": "Full Stack Developer",
+    "otherInfo": "HG ROBOTICS COMPANY LIMITED",
+    "stack": [
+      "Vuejs",
+      "Nodejs",
+      "MySQL"
+    ],
+    "content": ""
+  },
+  {
     "id": "RAW01",
     "img": "/image/workExp/readawrite_logo.jpg",
-    "year": "2019 - Present",
+    "year": "2019",
     "name": "Web Developer",
     "otherInfo": "MEB CORPORATION LTD.",
-    "stack": ["PHP", "HTML", "CSS", "JavaScript"],
+    "stack": [
+      "PHP",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
     "content": ""
   },
   {
@@ -14,7 +46,9 @@
     "year": "2018",
     "name": "Internship",
     "otherInfo": "Pico (Thailand) Public Co., Ltd.",
-    "stack": ["Python"],
+    "stack": [
+      "Python"
+    ],
     "content": ""
   },
   {
@@ -23,7 +57,9 @@
     "year": "2014",
     "name": "ต่อกล้าให้เติบใหญ่ (Newseed) #2",
     "otherInfo": "มูลนิธิสยามกัมมาจล (SCB Foundation)",
-    "stack": ["Unity3D"],
+    "stack": [
+      "Unity3D"
+    ],
     "content": ""
   }
 ]
