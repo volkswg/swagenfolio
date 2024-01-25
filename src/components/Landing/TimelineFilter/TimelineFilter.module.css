@@ -1,0 +1,27 @@
+.FilterContainer {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.FilterButton {
+  padding: 5px 0;
+  transition: 0.2s;
+  border-bottom: 3px solid transparent;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  opacity: 40%;
+}
+.FilterButton:hover {
+  /* border-bottom: 3px solid #212529; */
+  opacity: unset;
+
+}
+
+.Selected {
+  /* border-bottom: 3px solid #212529; */
+  opacity: unset;
+}

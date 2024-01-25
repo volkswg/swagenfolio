@@ -1,0 +1,76 @@
+.TimelineCardContainer {
+  padding-bottom: 40px;
+}
+
+.TimelineCardContainer:hover .ImgCol,
+.TimelineCardContainer:hover .DetailCol div,
+.TimelineCardContainer:hover .DetailCol h2 {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+.TimelineCardContainer:hover .ImgCol {
+  transform-origin: center right;
+}
+
+.TimelineCardContainer:hover .DetailCol div,
+.TimelineCardContainer:hover .DetailCol h2 {
+  transform-origin: center left;
+}
+.TimelineCardContainer:hover .DotMarker{
+  transition: 0.3s;
+
+  background-color: rgb(189, 189, 189);
+  transform: scale(1.15);
+}
+
+.ImgCol {
+  padding: 0 30px;
+  text-align: right;
+}
+.ImgCol > img {
+  width: 100%;
+  max-width: 200px;
+  box-shadow: 0 0 15px 0px #e1e1e1;
+  border-radius: 8px;
+}
+
+.DetailCol {
+  padding: 0 30px;
+}
+
+.DetailCol > .YearLabel {
+  /* font-weight: bold; */
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: var(--fadedTextColor);
+
+}
+
+.DetailCol > .PositionLabel {
+  /* font-size: 22px; */
+  font-weight: bold;
+}
+.DetailCol > .CompanyLabel {
+  font-size: 16px;
+}
+
+.DetailCol::before {
+  content: "";
+  left: -1px;
+  position: absolute;
+  width: 2px;
+  height: 130%;
+  background-color: rgb(216, 216, 216);
+  /* background-color: red; */
+}
+
+.DotMarker {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: lightgray;
+  left: -7px;
+  top: 4px;
+  border-radius: 100%;
+  border: 3px solid white;
+}

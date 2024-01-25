@@ -1,0 +1,55 @@
+.ContentContainer {
+  margin: auto;
+  width: 80%;
+  max-width: 440px;
+  animation-name: fadeInInfo;
+  animation-duration: 1s;
+}
+
+.DownloadCVContainer > a {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  margin-top: 20px;
+}
+
+.DownloadCVContainer > a:hover {
+  text-decoration: none;
+}
+
+.DownloadCVContainer .CVText {
+  /* font-weight: 700; */
+  margin-left: 5px;
+  color: rgb(75, 75, 75);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.DownloadCVContainer .DownloadIcon {
+  width: 20px;
+  stroke: rgb(75, 75, 75);
+  stroke-width: 1px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.DownloadCVContainer:hover .CVText {
+  color: rgb(0, 0, 0);
+}
+.DownloadCVContainer:hover .DownloadIcon {
+  stroke: rgb(0, 0, 0);
+}
+
+.FadedText {
+  color: var(--fadedTextColor);
+}
+
+@keyframes fadeInInfo {
+  from {
+    transform: translate(15px,0);
+    opacity: 0;
+  }
+  to {transform: translate(0,0);}
+}

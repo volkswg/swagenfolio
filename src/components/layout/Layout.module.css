@@ -1,3 +1,9 @@
 .LayoutContainer {
   padding: 10px 70px;
 }
+
+@media screen and (max-width: 767px) {
+  .LayoutContainer {
+    padding: 10px 0px;
+  }
+}
