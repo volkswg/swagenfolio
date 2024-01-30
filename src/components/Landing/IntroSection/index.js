@@ -5,7 +5,7 @@ import style from './IntroSection.module.css'
 const IntroSection = () => {
   return (  <div className={style.ContentContainer}>
     <span className={style.FadedText}>Full Stack Developer</span>
-    <h1>SARANPAT FUNKAEW</h1>
+    <h1 className={style.Title}>SARANPAT FUNKAEW</h1>
     <span className={style.FadedText}>
       I graduated from King Mongkut's University of Technology Thonburi
       (KMUTT). Computer Engineering.

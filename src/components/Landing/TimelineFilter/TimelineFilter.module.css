@@ -23,5 +23,6 @@
 
 .Selected {
   /* border-bottom: 3px solid #212529; */
+  font-weight: bold;
   opacity: unset;
 }

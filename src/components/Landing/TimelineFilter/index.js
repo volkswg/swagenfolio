@@ -14,6 +14,7 @@ const TimelineFilter = (props) => {
     <div className={style.FilterContainer}>
       {filterData.map((e) => (
         <div
+          key={e}
           className={[
             style.FilterButton,
             selectedTimeline === e ? style.Selected : null,

@@ -6,7 +6,7 @@
 .TimelineCardContainer:hover .DetailCol div,
 .TimelineCardContainer:hover .DetailCol h2 {
   transition: 0.3s;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .TimelineCardContainer:hover .ImgCol {
   transform-origin: center right;
@@ -29,7 +29,7 @@
 }
 .ImgCol > img {
   width: 100%;
-  max-width: 200px;
+  max-width: 220px;
   box-shadow: 0 0 15px 0px #e1e1e1;
   border-radius: 8px;
 }
@@ -40,10 +40,14 @@
 
 .DetailCol > .YearLabel {
   /* font-weight: bold; */
-  margin-bottom: 15px;
   font-size: 15px;
   color: var(--fadedTextColor);
+}
 
+.DetailCol > .Description {
+  color: var(--fadedTextColor);
+  width: 70%;
+  margin: 10px 0;
 }
 
 .DetailCol > .PositionLabel {
@@ -52,6 +56,7 @@
 }
 .DetailCol > .CompanyLabel {
   font-size: 16px;
+  font-weight: 500;
 }
 
 .DetailCol::before {

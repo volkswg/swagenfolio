@@ -10,8 +10,6 @@
   font-weight: bold;
 }
 
-
-
 @keyframes fadeInInfo {
   from {
     transform: translate(-5px,0);

@@ -45,6 +45,9 @@
 .FadedText {
   color: var(--fadedTextColor);
 }
+.Title{
+  font-weight: bolder;
+}
 
 @keyframes fadeInInfo {
   from {
