@@ -20,7 +20,7 @@ const NavBar = () => {
           isNavBarTop ? style.NavBarContainerTop : style.NavBarContainerSmall,
         ].join(" ")}
       >
-        <div className={style.NavBrand}>PORTFOLIO</div>
+        <div className={style.NavBrand}>VOLKSWAGEN</div>
         {/* <div className={style.NavMenu}>Home</div>
         <div className={style.NavMenu}>Experience</div>
         <div className={style.NavMenu}>Achievement</div>
