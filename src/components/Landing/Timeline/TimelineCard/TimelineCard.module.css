@@ -1,14 +1,14 @@
 .TimelineCardContainer {
-  padding-bottom: 40px;
+  padding: 20px 0;
 }
 
-.TimelineCardContainer:hover .ImgCol,
+/* .TimelineCardContainer:hover .ImgCol,
 .TimelineCardContainer:hover .DetailCol div,
 .TimelineCardContainer:hover .DetailCol h2 {
   transition: 0.3s;
   transform: scale(1.02);
-}
-.TimelineCardContainer:hover .ImgCol {
+} */
+/* .TimelineCardContainer:hover .ImgCol {
   transform-origin: center right;
 }
 
@@ -21,7 +21,7 @@
 
   background-color: rgb(189, 189, 189);
   transform: scale(1.15);
-}
+} */
 
 .ImgCol {
   padding: 0 30px;
@@ -45,7 +45,7 @@
 }
 
 .DetailCol > .Description {
-  color: var(--fadedTextColor);
+  color: var(--mainTextColor);
   width: 70%;
   margin: 10px 0;
 }
@@ -64,7 +64,8 @@
   left: -1px;
   position: absolute;
   width: 2px;
-  height: 130%;
+  top: -20px;
+  height: calc(100% + 40px);
   background-color: rgb(216, 216, 216);
   /* background-color: red; */
 }
@@ -78,4 +79,17 @@
   top: 4px;
   border-radius: 100%;
   border: 3px solid white;
+}
+
+.ExpandableContainer {
+  height: 0;
+  overflow: hidden;
+  background-color: #efefef;
+  transition: 0.4s;
+  box-shadow: inset 0 0 10px 2px #666666;
+}
+
+.ExpandableContainer.Show {
+  /* height: 70vh; */
+  height: fit-content;
 }
